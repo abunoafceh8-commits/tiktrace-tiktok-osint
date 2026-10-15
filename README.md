@@ -1,12 +1,45 @@
-# TikTrace TikTok OSINT
+# TikTrace — أداة OSINT TikTok متقدمة
 
-أداة OSINT متقدمة لـ TikTok.
+> **التصنيف:** OSINT · **المستودع:** `tiktrace-tiktok-osint` · **الحالة:** جاهز للاستضافة الثابتة (Static Hosting)
 
-## Original URL
+أداة استخبارات مفتوحة المصدر متقدمة لتحليل حسابات TikTok.
 
-https://tiktrace-osint-vgjc.arcada.app/
+## روابط الموقع الحي والأصول
+- https://tiktrace-osint-vgjc.arcada.app
 
-## Notes
+## روابط المصدر/التصميم المرجعية
+- https://www.designarena.ai/chat/215b9c14-dd59-47dc-b95f-87085c3f75f9
 
-- Downloaded snapshot of the deployed application (HTML + bundled assets).
-- Generated/collected on 2026-10-15.
+## كيفية العمل / ملخص المشروع
+تم تنزيل لقطة كاملة من الموقع الحي (https://tiktrace-osint-vgjc.arcada.app) تشمل `index.html` وكل الأصول المحلية (JS/CSS/صور) بتاريخ 2026-10-15، وأصبح المشروع جاهزًا للاستضافة الثابتة مباشرة.
+
+- العنوان الأصلي في الموقع: `TikTrace OSINT — by أبونواف`
+- الوصف الأصلي (Meta): أداة استخبارات مفتوحة المصدر متقدمة لتحليل حسابات TikTok.
+- هذا مشروع ويب ثابت: افتح `index.html` مباشرة أو استضِف المجلد كاملًا على GitHub أو Vercel أو Netlify أو أي استضافة ثابتة بدون أي خطوة بناء (No build step).
+- كل الأصول المحلية التي كان الموقع يعتمد عليها موجودة داخل المستودع في نفس مساراتها الأصلية (`assets/` وغيرها) حتى يعمل الموقع بعد الاستضافة كما كان حيًا.
+
+## الملفات المضمّنة
+- `favicon.svg`
+- `assets/index-Zlnt2F6v.js`
+- `assets/index-Kw22LVxT.css`
+- `README.md` — هذا الشرح
+- `project.json` — بيانات المشروع الوصفية بصيغة JSON
+- `SOURCE.md` — مصدر الأرشفة وتاريخها وملاحظات الأمان
+- `vercel.json` — إعداد استضافة جاهز لـ Vercel
+- `LICENSE` — رخصة MIT
+
+## التشغيل محليًا
+```bash
+python3 -m http.server 8000
+# ثم افتح http://localhost:8000
+```
+
+## الاستضافة على Vercel
+```bash
+npm i -g vercel
+vercel --prod
+```
+أو اربط هذا المستودع من لوحة Vercel وسيُنشر كموقع ثابت مباشرة.
+
+## تحذير الاستخدام المسؤول
+استخدم الأدوات في أغراض مشروعة فقط وبما يتوافق مع قوانين بلدك وشروط استخدام المنصات المعنية. لا تُستخدم أدوات OSINT/الأرشيف للتنمّر أو المضايقة أو انتهاك الخصوصية.

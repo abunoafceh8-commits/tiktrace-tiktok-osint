@@ -1,6 +1,21 @@
 {
-  "slug": "tiktrace-tiktok-osint",
-  "url": "https://tiktrace-osint-vgjc.arcada.app/",
-  "title": "TikTrace TikTok OSINT",
-  "desc": "أداة OSINT متقدمة لـ TikTok."
+  "name": "tiktrace-tiktok-osint",
+  "title": "TikTrace — أداة OSINT TikTok متقدمة",
+  "category": "OSINT",
+  "description": "أداة استخبارات مفتوحة المصدر متقدمة لتحليل حسابات TikTok.",
+  "liveUrl": "https://tiktrace-osint-vgjc.arcada.app",
+  "aliases": [],
+  "sourceLinks": [
+    "https://www.designarena.ai/chat/215b9c14-dd59-47dc-b95f-87085c3f75f9"
+  ],
+  "originalTitle": "TikTrace OSINT — by أبونواف",
+  "originalDescription": "",
+  "type": "static-website",
+  "archivedAt": "2026-10-15",
+  "readyForHosting": true,
+  "files": [
+    "favicon.svg",
+    "assets/index-Zlnt2F6v.js",
+    "assets/index-Kw22LVxT.css"
+  ]
 }
