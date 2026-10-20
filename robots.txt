@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tiktrace-tiktok-osint.vercel.app/sitemap.xml
